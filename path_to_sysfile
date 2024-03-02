@@ -1,0 +1,12 @@
+cat /sys/class/power_supply/BAT0/capacity
+984  cd cat /sys/class/power_supply/BAT0/capacity
+985  cd /sys/class/power_supply/BAT0/capacity
+986  cd /sys/class/power_supply/BAT0/
+987  ls
+988  cat capacity
+990  cat capacity
+991  paste <(cat /sys/class/thermal/thermal_zone*/type) <(cat /sys/class/thermal/thermal_zone*/temp) | column -s $'\t' -t | sed 's/\(.\)..$/.\1°C/'
+cat /sys/class/thermal/thermal_zone*/temp
+/sys/class/backlight/intel_backlight/brightness
+
+

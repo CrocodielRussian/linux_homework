@@ -1,0 +1,13 @@
+#!/bin/sh
+
+my_func(){
+	path=$1
+	shift 1
+	echo $path
+	echo $@
+	$($@ > $path 2>>$path)
+}
+
+my_func "$@"
+
+

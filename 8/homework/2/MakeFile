@@ -1,0 +1,6 @@
+CC=clang++
+CFLAGS=$(pkg-config --libs zlib) 
+LDFLAGS =-flto
+
+main: main.cc main.hh
+	$(CC) $(LDFLAGS) $(CFLAGS) main.cc -o  main

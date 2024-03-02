@@ -1,0 +1,14 @@
+#!/bin/sh
+
+
+path=$1
+
+for file in $@ 
+do
+	convert $file ${file%%jpg}png
+done
+
+
+
+
+

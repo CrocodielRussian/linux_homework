@@ -1,0 +1,10 @@
+#!/bin/sh
+
+path=$1
+files=$(find $path -name "*.jpg")
+
+for file in $files
+do
+	convert $file ${file%%jpg}png &
+done
+wait

@@ -1,0 +1,14 @@
+#!/bin/sh
+
+title=($(find $1 -type f))
+mod_title=($(find $1 -type f | tr [:lower:] [:upper:]))
+# -perm 644
+
+for i in ${!title[*]}
+do
+cat >> script << EOF
+mv ${title[$i]} ${mod_title[$i]}
+EOF
+done
+
+$(chmod +x script)

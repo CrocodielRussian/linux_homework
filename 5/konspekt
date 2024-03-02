@@ -1,0 +1,9 @@
+chown root:root a
+       |     |
+ имя польз.  имя группы
+
+head
+
+mkfifo my-fifo
+
+		

@@ -1,0 +1,13 @@
+#!/bin/sh
+
+x1=0
+y1=0
+while getopts x:y: args
+do
+	case "$args" in
+		x) x1=$OPTARG;;
+		y) y1=$OPTARG;;
+	esac
+done
+echo $(curl ru.wttr.in/$x1,$y1?0qF)
+

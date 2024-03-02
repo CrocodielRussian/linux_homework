@@ -1,0 +1,32 @@
+"hello world"
+ "a line with leading white space"
+"1"
+"!@#$%^&*()"
+"Fri Nov 17 02:47:12 PM MSK 2023"
+"aaaaa"
+
+"sss"
+
+""assa""
+"asdd"
+""dd""
+
+
+"asd"
+"asdsd"
+
+""ddf""
+"dfdf"
+"dsfdsf"
+sdfsdfdfdf
+"dfdf"
+"""dfdf"""""""""""""""
+
+"zfdfdf"
+"dfdfdf"
+"dfdf"
+
+"asdsd"
+"asdsad"
+"asdsad"
+Fri Nov 17 03:41:09 PM MSK 2023

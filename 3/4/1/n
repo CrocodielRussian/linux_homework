@@ -1,0 +1,4 @@
+mv a A
+mv b B
+mv c C
+mv test.sh TEST.SH

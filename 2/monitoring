@@ -1,0 +1,8 @@
+#!/bin/sh
+
+files=$(find /sys -type f -name "temp*input" 2>/dev/null)
+
+for file in $files
+do
+	cat $file
+done

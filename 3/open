@@ -1,0 +1,9 @@
+#!/bin/sh
+
+type=$(file -i $1)
+
+case $type in
+	*image*) ristretto $1&;;
+	*video*) vlc $1&;;
+	*document*|*text*) libreoffice $1&;;
+esac

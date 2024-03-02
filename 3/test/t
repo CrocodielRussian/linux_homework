@@ -1,0 +1,11 @@
+#!/bin/sh
+
+
+exec 0< mv
+
+while read line
+do
+	mv $line 
+done
+
+exit 1

@@ -1,0 +1,27 @@
+Script started on 2023-11-17 16:03:59+03:00 [<not executed on terminal>]
+	mv "./1/q
+./a
+./b
+./c
+./script
+./.replace_title_file.swp
+./replace_title_file ./1/q"
+]777;notify;Command completed;vim replace_title_file \]777;precmd\]0;the_greatest_maestro@fedora:~/Documents/linx_homework/3/4\]7;file://fedora/home/the_greatest_maestro/Documents/linx_homework/3/4\[?2004h[the_greatest_maestro@fedora 4]$ mv "./1/q
+[?2004l[?2004h> ./a
+[?2004l[?2004h> ./b
+[?2004l[?2004h> ./c
+[?2004l[?2004h> ./script
+[?2004l[?2004h> ./.replace_title_file.swp
+[?2004l[?2004h> ./replace_title_file ./1/q"
+[?2004l]777;preexec\mv: missing destination file operand after './1/q'$'\n''./a'$'\n''./b'$'\n''./c'$'\n''./script'$'\n''./.replace_title_file.swp'$'\n''./replace_title_file ./1/q'
+Try 'mv --help' for more information.
+]777;notify;Command completed;mv "./1/q
+./a
+./b
+./c
+./script
+./.replace_title_file.swp
+./replace_title_file ./1/q"\]777;precmd\]0;the_greatest_maestro@fedora:~/Documents/linx_homework/3/4\]7;file://fedora/home/the_greatest_maestro/Documents/linx_homework/3/4\[?2004h[the_greatest_maestro@fedora 4]$ [?2004l
+exit
+
+Script done on 2023-11-17 16:04:00+03:00 [COMMAND_EXIT_CODE="1"]
